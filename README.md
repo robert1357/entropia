@@ -10,5 +10,5 @@ The analysis begins by calculating key descriptive statistics for both female an
 
 
 
-The mean, or average, is a measure of central tendency calculated by summing all individual loan amounts within a group and dividing by the total number of observations (\(n\)) in that group.
+The mean, or average, is a measure of central tendency calculated by summing all individual loan amounts within a group and dividing by the total number of observations (n\) in that group.
 
