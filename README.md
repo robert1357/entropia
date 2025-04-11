@@ -110,6 +110,43 @@ The following image presents the raw data from the lenders, including both male 
 ## code Evidence
 ![codee evidence ](https://github.com/robert1357/entropia/blob/main/imagen_2025-04-11_000952417.png?raw=true)
 
+# Welch's t-test Results: Technical Interpretation
+
+The Welch's t-test was conducted to compare the loan amounts between two independent groups: **female loans** and **male loans**. Below is the detailed technical interpretation of the results:
+
+## t-statistic (t = -0.14573)
+The t-statistic obtained is -0.14573. This value measures the difference between the means of the two samples in terms of standard error. A value near zero suggests that the difference between sample means is small relative to the data variability. The negative sign indicates that the mean loan amount for females is slightly less than that for males; however, the magnitude of the difference is minimal.
+
+## Degrees of Freedom (df = 24.025)
+The estimated degrees of freedom for this test are 24.025. Unlike traditional t-tests, Welch's t-test does not assume equal variances, so the degrees of freedom are calculated using the Welch-Satterthwaite approximation, which can result in a non-integer value. This value determines the shape of the t-distribution used to compute the p-value.
+
+## p-value (p = 0.8853)
+The p-value associated with the t-statistic is 0.8853. This represents the probability of observing a difference as extreme as the one seen, or more, assuming the null hypothesis of no real difference between population means is true.
+
+- A high p-value (commonly above the significance level α = 0.05) suggests that the observed data is consistent with the null hypothesis.
+- Here, 0.8853 is significantly greater than 0.05, meaning we **fail to reject the null hypothesis**.
+
+## Alternative Hypothesis
+The alternative hypothesis posited that there is a significant difference between the mean loan amounts for females and males. However, the high p-value indicates insufficient statistical evidence to support this claim.
+
+## 95% Confidence Interval for the Difference of Means (-655.1858 to 568.7572)
+The 95% confidence interval for the mean difference between the groups is -655.1858 to 568.7572. This interval provides a plausible range for the true mean difference between the populations.
+
+- Crucially, this interval includes zero, indicating that a true difference of zero between population means is plausible.
+- This reinforces the conclusion of no statistically significant difference between the groups.
+
+## Sample Mean Estimates
+The sample mean loan amounts are:
+
+- **Female group (x)**: 1409.143
+- **Male group (y)**: 1452.357
+
+While there is a numerical difference of approximately 43.214 in favor of males, the Welch's t-test indicates that this difference is not statistically significant given the within-group variability and sample sizes.
+
+---
+
+Feel free to copy this Markdown code directly into your GitHub README. Let me know if you'd like adjustments or additional sections!
+
 The following image and code snippet provide evidence of the statistical results and graphs generated from the analysis. The R code used to calculate the descriptive statistics (mean, standard deviation, coefficient of variation) and create visualizations such as box plots is included. These results and visualizations help support the conclusions drawn regarding the differences in loan amounts between female and male borrowers.
 
 
