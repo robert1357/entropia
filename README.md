@@ -10,9 +10,6 @@ The analysis begins with the calculation of fundamental descriptive statistics f
 
 The mean, or average, is a measure of central tendency calculated by summing all individual loan amounts within a group and dividing by the total number of observations (\(n\)) in that group.
 
-\[
-\overline{x} = \frac{\sum_{i=1}^{n} x_i}{n}
-\]
 
 Where:
 - \(\overline{x}\) is the mean.
