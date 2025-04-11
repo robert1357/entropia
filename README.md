@@ -6,7 +6,7 @@ The analysis begins by calculating key descriptive statistics for both female an
 
 ## Descriptive Statistics
 
-### Mean  $\overline{x}$
+### Mean  ($\overline{x}$)
 
 
 
