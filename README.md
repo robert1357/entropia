@@ -143,10 +143,6 @@ The sample mean loan amounts are:
 
 While there is a numerical difference of approximately 43.214 in favor of males, the Welch's t-test indicates that this difference is not statistically significant given the within-group variability and sample sizes.
 
----
 
-Feel free to copy this Markdown code directly into your GitHub README. Let me know if you'd like adjustments or additional sections!
-
-The following image and code snippet provide evidence of the statistical results and graphs generated from the analysis. The R code used to calculate the descriptive statistics (mean, standard deviation, coefficient of variation) and create visualizations such as box plots is included. These results and visualizations help support the conclusions drawn regarding the differences in loan amounts between female and male borrowers.
 
 
