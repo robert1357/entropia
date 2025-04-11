@@ -47,21 +47,21 @@ To understand the relative variability:
 - The coefficient of variation (CV) for females is 63%, reflecting a high degree of relative dispersion.
 - In contrast, the CV for males is 46%, indicating lower relative variability in their loan amounts.
   
-## Female
+## Chart F (Female)
 
 ![female graphic](https://github.com/robert1357/entropia/blob/main/imagen_2025-04-11_000750281.png?raw=true)
 
-### Chart F (Female)
+
 
 It showed a distribution where the majority of observations were concentrated at relatively
 low values up to category 11, followed by a steep and significant increase in categories 12,
 13, and 14, reaching the highest values. This suggested greater variability in loan amounts
 for women, with a notable proportion receiving significantly larger loans.
 
-### chart M (male)
+## chart M (male)
 ![malegraphic](https://github.com/robert1357/entropia/blob/main/imagen_2025-04-11_000757194.png?raw=true)
 
-### chart M (male)
+
 This showed a distribution with a more gradual and sustained increase in loan amounts
 across categories. While the highest values were also found in the lower categories, the
 increase was less pronounced than in the female group. This suggested a smaller relative
